@@ -6,7 +6,7 @@ DB_USER=${POSTGRES_USER:=postgres}
 
 DB_PASSSWORD="${POSTGRES_PASSWORD:=password}"
 
-DB_NAME"${POSTGRES_DB:=mydatabase}"
+DB_NAME="${POSTGRES_DB:=mydatabase}"
 
 DB_PORT="${POSTGRES_PORT:=5432}"
 
