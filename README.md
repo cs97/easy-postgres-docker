@@ -2,8 +2,6 @@
 ```
 cargo install --version="~0.6" sqlx-cli --no-default-features --features rustls,postgres
 
-
-
 ```
 
 ```
