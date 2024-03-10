@@ -4,7 +4,7 @@ set -eo pipefail
 
 DB_USER=${POSTGRES_USER:=postgres}
 
-DB_PASSSWORD="${POSTGRES_PASSWORD:=password}"
+DB_PASSWORD="${POSTGRES_PASSWORD:=password}"
 
 DB_NAME="${POSTGRES_DB:=mydatabase}"
 
