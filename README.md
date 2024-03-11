@@ -1,3 +1,14 @@
+```
+git clone https://github.com/CasinoMLU/server
+```
+
+```
+git reset --hard HEAD
+```
+
+```
+git pull
+```
 
 ```
 sudo dnf install postgresql-server postgresql-contrib
