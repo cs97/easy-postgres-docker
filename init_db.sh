@@ -29,7 +29,7 @@ DB_PORT="${POSTGRES_PORT:=5432}"
 DB_HOST="${POSTGRES_HOST:=localhost}"
 
 # skip docker run
-if [[-z "${SKIP_DOCKER}" ]]; then
+if [[ -z "${SKIP_DOCKER}" ]]; then
 	docker run \
 		-e POSTGRES_USER=${DB_USER} \
 		-e POSTGRES_PASSWORD=${DB_PASSWORD} \
