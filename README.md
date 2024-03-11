@@ -8,6 +8,10 @@ cargo install --version="~0.6" sqlx-cli --no-default-features --features rustls,
 ```
 
 ```
+cp /root/.cargo/bin/* /usr/bin/
+```
+
+```
 chmod +x scripts/init_db.sh
 ```
 
