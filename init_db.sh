@@ -20,7 +20,7 @@ fi
 
 DB_USER=${POSTGRES_USER:=postgres}
 
-DB_PASSWORD="${POSTGRES_PASSWORD:=password}"
+DB_PASSWORD="${POSTGRES_PASSWORD:=deeznuts}"
 
 DB_NAME="${POSTGRES_DB:=mydatabase}"
 
