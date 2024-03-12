@@ -36,7 +36,7 @@ if [[ -z "${SKIP_DOCKER}" ]]; then
 		-e POSTGRES_DB=${DB_NAME} \
 		-p "${DB_PORT}":5432 \
 		-d postgres \
-		postgres:13.14 -N 1000
+		postgres:13.14-alpine3.19 -N 1000
 fi
 
 
